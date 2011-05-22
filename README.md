@@ -8,8 +8,7 @@ may want not to use some of them.
 
 ## Rails 3.1
 
-To use it in your application, just include this gem in your Gemfile like
-this:
+To use it in your application, just include this gem in your Gemfile:
 
     gem 'blueprint-rails'
 
