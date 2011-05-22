@@ -6,6 +6,12 @@ stylesheets from Blueprint CSS framework version 1.0.1.
 We don't include those files in default stylesheets load paths, because you
 may want not to use some of them.
 
+## Background grid
+
+If you need `grid.png`, just use it in your stylesheets:
+
+    .grid { background:url('/assets/grid.png'); }
+
 ## Rails 3.1
 
 To use it in your application, just include this gem in your Gemfile:
