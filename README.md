@@ -10,7 +10,7 @@ may want not to use some of them.
 
 If you need `grid.png`, just use it in your stylesheets:
 
-    .grid { background:url('/assets/grid.png'); }
+    .showgrid { background:url('/assets/grid.png'); }
 
 ## Rails 3.1
 
