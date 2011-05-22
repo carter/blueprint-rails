@@ -1,10 +1,7 @@
-# Configure Rails 3.0 to use public/javascripts/* et al
+# I would put blueprint in defaults, but you may want to use only a part of it
 module Blueprint
   module Rails
     class Railtie < ::Rails::Railtie
-      config.before_configuration do
-        # config.action_view.javascript_expansions[:defaults] << %w(reset fonts grid)
-      end
     end
   end
 end
